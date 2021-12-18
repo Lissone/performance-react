@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { FormEvent, useState } from 'react'
+import { FormEvent, useCallback, useState } from 'react'
 
 import { SearchResults } from './components/SearchResults'
 
@@ -20,9 +20,9 @@ export default function Home() {
     setResults(data)
   }
 
-  async function addToWishlist(id: number) {
+  const addToWishlist = useCallback(async (id: number) => {
     console.log(id)
-  }
+  }, [])
 
   return (
     <>

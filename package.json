@@ -35,12 +35,14 @@
     "next": "11.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-virtualized": "^9.22.3",
     "sass": "^1.35.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
     "@types/react": "17.0.11",
+    "@types/react-virtualized": "^9.21.15",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
     "commitizen": "^4.2.4",
